@@ -32,6 +32,18 @@ export const useChatStore = defineStore(
         label: 'Cloudflare Worker',
       },
       {
+        baseUrl: 'https://bing.t2mall.store',
+        label: '本站1',
+      },
+      {
+        baseUrl: 'https://bing.koge.eu.org',
+        label: '本站2',
+      },
+      {
+        baseUrl: 'https://bing.netgpt.online',
+        label: '本站3',
+      },
+      {
         baseUrl: location.origin,
         label: '本站',
       },
